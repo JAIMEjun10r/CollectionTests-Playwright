@@ -7,6 +7,11 @@ test('Open New tabbed Windows', async ({ page }) => {
     const page1 = await page1Promise;
     const confirmNewtab = page1.getByRole('link', { name: 'Selenium logo green' })
     await expect(confirmNewtab).toBeVisible()
+    // aqui serve para trazer o foco
+    await page.bringToFront()
+    // aqui serve para fechar a guia
+    await page1.close()
+
 });
 
 test('Open New Separate Window', async ({ page }) => {
