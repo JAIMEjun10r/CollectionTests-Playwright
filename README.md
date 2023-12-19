@@ -27,3 +27,33 @@ Alerts, Datapicker, Autocomplete, Frames e Windows. Também um desafio que vi nu
 - https://demo.automationtesting.in
 - https://phptravels.com/demo
 - https://practice.automationtesting.in
+
+## Casos de Teste
+
+### Alerts
+  - CT01: Alert with OK
+  - CT02: Accepting an alert in a confirm box
+  - CT03: Pressing cancel button in a confirm box
+ 
+### Autocomplete
+ - CT01: Writing the word Argentina inside the searchbox
+
+### Challenge
+- CT01: Prime's challenge
+
+### Datapicker
+- CT01: DataPicker enabled
+- CT02: DataPicker disabled
+
+### Frame
+- CT01: Single Frame
+
+### Testcases_PA
+- CT01: Home Page with three Sliders only
+- CT02: Home Page with three Arrivals only
+
+### Windows
+- CT01: Open New tabbed Windows
+- CT02: Open New Separate Window
+
+
