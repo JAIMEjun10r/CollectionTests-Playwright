@@ -1,5 +1,5 @@
 import { test, expect } from '@playwright/test';
-test('Teste', async ({ page }) => {
+test('CT01: Desafio Prime', async ({ page }) => {
     await page.goto('https://phptravels.com/demo');
     await page.getByPlaceholder('Last Name').fill('Neto');
     await page.getByPlaceholder('First Name').fill('Campos');

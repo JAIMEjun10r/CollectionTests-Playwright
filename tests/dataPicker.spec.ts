@@ -1,6 +1,6 @@
 import { test, expect } from "@playwright/test";
 
-test('DataPicker enabled', async ({ page }) => {
+test('CT01: DataPicker enabled', async ({ page }) => {
     await page.goto('/Datepicker.html')
     // await page.click('#datepicker1')
     let date: string = '03/30/1988'
@@ -9,7 +9,7 @@ test('DataPicker enabled', async ({ page }) => {
         
 });
 
-test('DataPicker disabled', async ({ page }) => {
+test('CT02: DataPicker disabled', async ({ page }) => {
     await page.goto('/Datepicker.html')
     await page.locator('form').getByRole('img').click();
     let monthYear: string = 'January 2023'

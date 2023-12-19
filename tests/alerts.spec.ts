@@ -1,6 +1,6 @@
 import { test, expect } from '@playwright/test';
 
-test('Alert with OK', async ({ page }) => {
+test('CT01: Alert with OK', async ({ page }) => {
   await page.goto('/Alerts.html');
   page.once('dialog', dialog => {
     console.log(`Dialog message: ${dialog.message()}`);
@@ -10,7 +10,7 @@ test('Alert with OK', async ({ page }) => {
 
 });
 
-test('Accepting an alert in a confirm box', async ({ page }) => {
+test('CT02: Accepting an alert in a confirm box', async ({ page }) => {
   await page.goto('/Alerts.html');
   await page.getByRole('link', { name: 'Alert with OK & Cancel' }).click();
   page.once('dialog', dialog => {
@@ -21,7 +21,7 @@ test('Accepting an alert in a confirm box', async ({ page }) => {
   
 });
 
-test('Pressing cancel button in a confirm box', async ({ page }) => {
+test('CT03: Pressing cancel button in a confirm box', async ({ page }) => {
   await page.goto('/Alerts.html');
   await page.getByRole('link', { name: 'Alert with OK & Cancel' }).click();
   page.once('dialog', dialog => {

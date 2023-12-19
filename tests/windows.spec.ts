@@ -1,6 +1,6 @@
 import { test, expect } from "@playwright/test";
 
-test('Open New tabbed Windows', async ({ page }) => {
+test('CT01: Open New tabbed Windows', async ({ page }) => {
     await page.goto('/Windows.html')
     const page1Promise = page.waitForEvent('popup');
     await page.getByRole('button', { name: 'click' }).click();
@@ -14,7 +14,7 @@ test('Open New tabbed Windows', async ({ page }) => {
 
 });
 
-test('Open New Separate Window', async ({ page }) => {
+test('CT02: Open New Separate Window', async ({ page }) => {
     await page.goto('/Windows.html') 
     await page.getByRole('link', { name: 'Open New Seperate Windows' }).click();
     const page3Promise = page.waitForEvent('popup');
@@ -24,11 +24,3 @@ test('Open New Separate Window', async ({ page }) => {
     await expect(confirmNewWindow).toBeVisible()
 });
 
-test('teste', async ({ page }) => {
-    await page.goto('http://the-internet.herokuapp.com/windows')
-    const page1Promise = page.waitForEvent('popup');
-    await page.getByRole('link', { name: 'Click Here' }).click();
-    const page1 = await page1Promise;
-    const newPage = page1.getByRole('heading', { name: 'New Window' })
-    await expect(newPage).toBeVisible()
-});

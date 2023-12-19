@@ -1,6 +1,6 @@
 import { test, expect } from "@playwright/test";
 
-test('Writing the word Argentina inside the searchbox', async({ page }) => {
+test('CT01: Writing the word Argentina inside the searchbox', async({ page }) => {
     await page.goto('/AutoComplete.html')
     await page.locator('.ui-autocomplete-multiselect').click();
     await page.locator('#searchbox').fill('Arg');
