@@ -1,7 +1,7 @@
 # Plano de Testes
 
 Este projeto foi desenvolvido com o objetivo de realizar testes automatizados utilizando Playwright com Typescript. Foi utilizado mais de um site para os testes. Os principais pontos abordados são: 
-Alerts, Datapicker, Autocomplete, Frames e Windows. Também um desafio que vi numa entrevista de emmprego e decidi fazer usando o Playwright e também dois testes do site https://practice.automationtesting.in
+Alerts, Datapicker, Autocomplete, Frames e Windows. Também, um desafio que vi em uma entrevista de emprego e decidi realizar utilizando o Playwright, além de dois testes do site https://practice.automationtesting.in.
 
 ## Escopo
 <b>Alerts:</b> Testes para validar o comportamento e manipulação de alertas.
