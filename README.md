@@ -1,20 +1,19 @@
-# Plano de Testes
+# Test Plan
 
-Este projeto foi desenvolvido com o objetivo de realizar testes automatizados utilizando Playwright com Typescript. Foi utilizado mais de um site para os testes. Os principais pontos abordados são: 
-Alerts, Datapicker, Autocomplete, Frames e Windows. Também, um desafio que vi em uma entrevista de emprego e decidi realizar utilizando o Playwright, além de dois testes do site https://practice.automationtesting.in.
+This project was developed with the aim of conducting automated testing using Playwright with Typescript. More than one website was used for the tests. The main points covered are: Alerts, Datepicker, Autocomplete, Frames, and Windows. Additionally, a challenge that I saw in a job interview and decided to tackle using Playwright, along with two tests from the website https://practice.automationtesting.in. 
 
-## Escopo
-<b>Alerts:</b> Testes para validar o comportamento e manipulação de alertas.
+## Scope
+<b>Alerts:</b> Tests to validate the behavior and handling of alerts.
 
-<b>Datepicker:</b> Verificação da interação e funcionalidades do seletor de datas.
+<b>Datepicker:</b> Verification of interaction and functionalities of the date picker. 
 
-<b>Autocomplete:</b> Teste para garantir o correto funcionamento do recurso de autocompletar. Foi apenas um teste simples
+<b>Autocomplete:</b> Test to ensure the proper functioning of the autocomplete feature. It was just a simple test.
 
-<b>Frames e Windows:</b> Verificação da manipulação de frames e janelas 
+<b>Frames e Windows:</b> Verification of handling frames and windows.  
 
-<b>Challenge:</b> Implementação de um teste específico para o desafio de uma entrevista que outrora fora em Robot, mas decidi aplicar com Playwright.
+<b>Challenge:</b> Implementation of a specific test for a challenge from an interview job that was previously done in Robot Framework, but I decided to implement using Playwright
 
-<b>Testcases_PA</b>: Dois casos de teste relacionado com contagem de sliders e arrivals.
+<b>Testcases_PA</b>: Two test cases related to slider counting and arrivals. Dois casos de teste relacionado com contagem de sliders e arrivals.
 
 ## Ambiente de testes:
 - Windows      10 Pro
