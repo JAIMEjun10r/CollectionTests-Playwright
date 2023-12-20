@@ -15,18 +15,18 @@ This project was developed with the aim of conducting automated testing using Pl
 
 <b>Testcases_PA</b>: Two test cases related to slider counting and arrivals. Dois casos de teste relacionado com contagem de sliders e arrivals.
 
-## Ambiente de testes:
+## Test Environment:
 - Windows      10 Pro
-- Playwright  1.40.1 com typescript
+- Playwright  1.40.1 with Typescript
 - Node        20.10.0
   
-<b>Utilizei os seguintes sites:</b>
+<b>I used the following websites:</b>
 
 - https://demo.automationtesting.in
 - https://phptravels.com/demo
 - https://practice.automationtesting.in
 
-## Casos de Teste
+## Test Cases
 
 ### Alerts
   - CT01: Alert with OK
